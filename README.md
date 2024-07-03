@@ -1,8 +1,8 @@
 # FoxTurMapAndStats
 
-This is a fan made project and is not associated with Turing Smart Screens or Siege Camp's Foxhole.
+This is a fan made project and is not associated with Turing Smart Screens or Siege Camp's Foxhole in any official manner.
 
-This project utilizes teh turing-smart-screen-python library and Foxhole War API to display current world conquest war information.
+This project utilizes the turing-smart-screen-python library and Foxhole War API to display current world conquest war information.
 
 **Turing Smart Screen Offical Forum:**
 <br />
