@@ -27,4 +27,4 @@ https://gist.github.com/pv/8036995
 ![screen01](https://github.com/fxn342/FoxTurMapAndStats/assets/141661840/0439cc06-40df-4111-8cd8-1ca2d950da22)
 
 **Foxhole War Stats:**
-![screen02](https://github.com/fxn342/FoxTurMapAndStats/assets/141661840/82c3a32f-6f13-4386-8eb6-9cb342a73158)
+![screen02](https://github.com/fxn342/FoxTurMapAndStats/assets/141661840/9dcd2317-c1f4-437f-8f5f-f2d27627634d)
