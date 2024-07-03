@@ -16,4 +16,7 @@ Turing Smart Screen Python:
 
 https://github.com/mathoudebine/turing-smart-screen-python
 
+Voronoi Clipping:
+
+https://gist.github.com/pv/8036995
 
