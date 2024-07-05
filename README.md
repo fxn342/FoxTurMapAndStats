@@ -4,9 +4,9 @@ This is a fan made project and is not associated with Turing Smart Screens or Si
 
 This project utilizes the turing-smart-screen-python library and Foxhole War API to display current world conquest war information.
 
-**Turing Smart Screen Offical Forum:**
+**This project was built and tested with the following Turing Smart Screen:**
 <br />
-http://discuz.turzx.com/
+        Revision A (Turing Smart Screen 3.5")
 
 **Foxhole War API:**
 <br />
@@ -20,6 +20,9 @@ https://github.com/mathoudebine/turing-smart-screen-python
 <br />
 https://gist.github.com/pv/8036995
 
+**Turing Smart Screen Offical Forum:**
+<br />
+http://discuz.turzx.com/
 
 
 
