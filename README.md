@@ -2,11 +2,11 @@
 
 This is a fan made project and is not associated with Turing Smart Screens or Siege Camp's Foxhole in any official manner.
 
-This project utilizes the turing-smart-screen-python library and Foxhole War API to display current world conquest war information.
+This project utilizes the turing-smart-screen-python library and Foxhole War API to display current world conquest war information. Each screen will display for X number of seconds based on the INI configuration parameters. This project was built specifically for the 3.5" inch screen but the INI file and graphics can be modified to work with larger screens.
 
-**Turing Smart Screen Offical Forum:**
+**This project was built and tested with the following Turing Smart Screen:**
 <br />
-http://discuz.turzx.com/
+        Revision A (Turing Smart Screen 3.5")
 
 **Foxhole War API:**
 <br />
@@ -20,6 +20,9 @@ https://github.com/mathoudebine/turing-smart-screen-python
 <br />
 https://gist.github.com/pv/8036995
 
+**Turing Smart Screen Offical Forum:**
+<br />
+http://discuz.turzx.com/
 
 
 
