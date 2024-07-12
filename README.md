@@ -8,8 +8,15 @@ This project utilizes the turing-smart-screen-python library and Foxhole War API
         <br />
         The LCD screen can lock up depending on the timing of the screen draw and shutdown. If the screen is drawing when the application is closing its possible the LCD will be stuck. Undocking/Unpluggin the LCD screen resolves the issue.
         <br />
+        <br />
         Its possible in some cases if a computer shutdown occurs the screen will not turn off. Undocking/Unpluggin the LCD screen resolves the issue.
-        
+
+**How to run:**
+<br />
+Install the required libraries (refer to requirements.txt)
+<br />
+<br />
+Run the following script: foxTurMapAndStats.py
 
 **This project was built and tested with the following Turing Smart Screen:**
 <br />
