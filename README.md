@@ -6,10 +6,15 @@ This project utilizes the turing-smart-screen-python library and Foxhole War API
 
 **Known Issues:**
         <br />
-        The LCD screen can lock up depending on the timing of the screen draw and shutdown. If the screen is drawing when the application is closing its possible the LCD will be stuck. Undocking/Unpluggin the LCD screen resolves the issue.
+        * The LCD screen can lock up depending on the timing of the screen draw and shutdown. If the screen is drawing when the application is closing its possible the LCD will be stuck. Undocking/Unpluggin the LCD screen resolves the issue.
         <br />
-        <br />
-        Its possible in some cases if a computer shutdown occurs the screen will not turn off. Undocking/Unpluggin the LCD screen resolves the issue.
+        * Its possible in some cases if a computer shutdown occurs the screen will not turn off. Undocking/Unpluggin the LCD screen resolves the issue.
+
+
+**Future Enhancements**
+* Full integration into the Turing Smart Screen Python library.
+* Foxhole 57 Update additions (Rocket Launch Sites, Rocket Devastation Location, Weather Stations)
+
 
 **How to run:**
 <br />
@@ -46,7 +51,7 @@ http://discuz.turzx.com/
 ![screen02](https://github.com/fxn342/FoxTurMapAndStats/assets/141661840/9dcd2317-c1f4-437f-8f5f-f2d27627634d)
 
 
-FoxTurMapAndStats Specific Code Breakdwon:
+**FoxTurMapAndStats Specific Code Breakdwon:**
  <br />
 fxwsAPI.py - Functions to call Foxhole War API.
  <br />
