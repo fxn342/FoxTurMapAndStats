@@ -15,7 +15,6 @@ This project utilizes the turing-smart-screen-python library and Foxhole War API
 <br />
 Install the required libraries (refer to requirements.txt)
 <br />
-<br />
 Run the following script: foxTurMapAndStats.py
 
 **This project was built and tested with the following Turing Smart Screen:**
@@ -45,3 +44,24 @@ http://discuz.turzx.com/
 
 **Foxhole War Stats:**
 ![screen02](https://github.com/fxn342/FoxTurMapAndStats/assets/141661840/9dcd2317-c1f4-437f-8f5f-f2d27627634d)
+
+
+FoxTurMapAndStats Specific Code Breakdwon:
+ <br />
+fxwsAPI.py - Functions to call Foxhole War API.
+ <br />
+fxwsAPIData.py - Classes for storing Foxhole War API data.
+ <br />
+fxwsDataClasses.py - Classes for storing calculated runtime data.
+ <br />
+fxwsDrawStats.py - Main function to draw war stats image.
+ <br />
+fxwsFunctions.py - Functions to generate war stats data.
+ <br />
+fxwsLookupTables.py - Lookup table for generating war map.
+ <br />
+fxwsWorldMapDraw.py - Main function to draw world amp.
+ <br />
+fxwsWorldMapFunctions.py - Functions to help generate war map.
+ <br />
+
