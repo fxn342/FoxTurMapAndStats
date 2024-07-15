@@ -50,6 +50,36 @@ http://discuz.turzx.com/
 **Foxhole War Stats:**
 ![screen02](https://github.com/fxn342/FoxTurMapAndStats/assets/141661840/9dcd2317-c1f4-437f-8f5f-f2d27627634d)
 
+**Adjusting Shards**
+<br />
+In some cases multiple Foxhole wars can be running. This typically happens during major releases of the game. In this case it might be required to adjust the INI file to point to the shard you want.
+<br />
+In the config subfolder you can find the fxws.ini file and the following three lines.
+<br />
+***Shard 1:***
+<br />
+apiWarUrl = https://war-service-live.foxholeservices.com/api/worldconquest/war
+<br />
+apiWarMapsUrl = https://war-service-live.foxholeservices.com/api/worldconquest/maps/
+<br />
+apiWarReportURL = https://war-service-live.foxholeservices.com/api/worldconquest/warReport/
+<br />
+***Shard 2:***
+<br />
+apiWarUrl = https://war-service-live-2.foxholeservices.com/api/worldconquest/war
+<br />
+apiWarMapsUrl = https://war-service-live-2.foxholeservices.com/api/worldconquest/maps/
+<br />
+apiWarReportURL = https://war-service-live-2.foxholeservices.com/api/worldconquest/warReport/
+<br />
+***Shard 3:***
+<br />
+apiWarUrl = https://war-service-live-3.foxholeservices.com/api/worldconquest/war
+<br />
+apiWarMapsUrl = https://war-service-live-3.foxholeservices.com/api/worldconquest/maps/
+<br />
+apiWarReportURL = https://war-service-live-3.foxholeservices.com/api/worldconquest/warReport/
+<br />
 
 **FoxTurMapAndStats Specific Code Breakdwon:**
  <br />
