@@ -42,13 +42,17 @@ https://gist.github.com/pv/8036995
 <br />
 http://discuz.turzx.com/
 
-
-
 **Foxhole World Map:**
-![screen01](https://github.com/fxn342/FoxTurMapAndStats/assets/141661840/0439cc06-40df-4111-8cd8-1ca2d950da22)
+![20240717_201753](https://github.com/user-attachments/assets/f463ee01-c795-4139-8b62-b788ddb046d2)
 
 **Foxhole War Stats:**
-![screen02](https://github.com/fxn342/FoxTurMapAndStats/assets/141661840/9dcd2317-c1f4-437f-8f5f-f2d27627634d)
+![20240717_201804](https://github.com/user-attachments/assets/deb8308d-ba9c-4b27-b5a0-6d8d3a0d2203)
+
+**Foxhole World Map PNG:**
+![fxWorldMapMergedWithBackground](https://github.com/user-attachments/assets/03ac20c1-8cf3-42a2-9593-377cedbf9f9b)
+
+**Foxhole War Stats PNG:**
+![fxStatsBackground](https://github.com/user-attachments/assets/9308fd6c-a3e5-4bfb-8e0c-8205e5561013)
 
 **Adjusting Shards**
 <br />
