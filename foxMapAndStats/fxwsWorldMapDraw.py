@@ -156,8 +156,36 @@ def fxWorldMapDraw(fxWarConquest, fxWorkingData, foxholeFont, fxConfig):
         fxDrawText = ImageDraw.Draw(fxWorldMapBackground)
 
         fxDrawText.text(eval(fxConfig['WorldMap']['fxWorldMapColonialVictoryPoints']), colonialVictoryPoints, anchor="ms", fill ="black", font = fxFoxholeFont, align ="center") 
-        fxDrawText.text(eval(fxConfig['WorldMap']['fxWorldMapWardenVictoryPoints']), wardenVictoryPoints, anchor="ms", fill ="black", font = fxFoxholeFont, align ="center") 
+        fxDrawText.text(eval(fxConfig['WorldMap']['fxWorldMapWardenVictoryPoints']), wardenVictoryPoints, anchor="ms", fill ="black", font = fxFoxholeFont, align ="center")
         
+        #Draw Warden Rocket Information
+        fxWardenRocketSite = Image.open(fxConfig['WorldMap']['fxWorldMapRocketSiteWarden']).convert('RGBA')
+        fxWardenRocketSiteArmed = Image.open(fxConfig['WorldMap']['fxWorldMapRocketSiteArmedWarden']).convert('RGBA')
+        
+        #Warden Rocket Site
+        fxWorldMapBackground.paste(fxWardenRocketSite, eval(fxConfig['WorldMap']['fxWarMapWardenRocketSiteXY']), fxWardenRocketSite)
+        #Warden Armed Rocket Site
+        fxWorldMapBackground.paste(fxWardenRocketSiteArmed, eval(fxConfig['WorldMap']['fxWarMapWardenRocketSiteArmedXY']), fxWardenRocketSiteArmed)
+        #Warden Rocket Sites Count
+        fxDrawText = ImageDraw.Draw(fxWorldMapBackground)    
+        fxDrawText.text(eval(fxConfig['WorldMap']['fxWarMapTotalWardenRocketSitesXY']), str(fxWorkingData.fxTotalWardenRocketSilos), anchor="ms", fill ="white", font = fxFoxholeFont, align ="center")
+        fxDrawText.text(eval(fxConfig['WorldMap']['fxWarMapTotalWardenRocketSitesArmedXY']), str(fxWorkingData.fxTotalWardenArmedRocketSilos), anchor="ms", fill ="white", font = fxFoxholeFont, align ="center")
+
+        #Draw Colonial Rocket Information
+        fxColonialRocketSite = Image.open(fxConfig['WorldMap']['fxWorldMapRocketSiteColonial']).convert('RGBA')
+        fxColonialRocketSiteArmed = Image.open(fxConfig['WorldMap']['fxWorldMapRocketSiteArmedColonial']).convert('RGBA')
+
+        #Colonial Rocket Site
+        fxWorldMapBackground.paste(fxColonialRocketSite, eval(fxConfig['WorldMap']['fxWarMapColonialRocketSiteXY']), fxColonialRocketSite)
+        #Colonial Armed Rocket Site
+        fxWorldMapBackground.paste(fxColonialRocketSiteArmed, eval(fxConfig['WorldMap']['fxWarMapColonialRocketSiteArmedXY']), fxColonialRocketSiteArmed)
+        #Colonial Rocket Sites Count
+        fxDrawText = ImageDraw.Draw(fxWorldMapBackground)    
+        fxDrawText.text(eval(fxConfig['WorldMap']['fxWarMapTotalColonialRocketSitesXY']), str(fxWorkingData.fxTotalColonialRocketSilos), anchor="ms", fill ="white", font = fxFoxholeFont, align ="center")
+        fxDrawText.text(eval(fxConfig['WorldMap']['fxWarMapTotalColonialRocketSitesArmedXY']), str(fxWorkingData.fxTotalColonialArmedRocketSilos), anchor="ms", fill ="white", font = fxFoxholeFont, align ="center") 
+        
+
+
         #Debug: Save Final Background
         if(fxConfig['Log']['Debug'] == 'True'):
             logger.debug("Saving final world map to working directory.")

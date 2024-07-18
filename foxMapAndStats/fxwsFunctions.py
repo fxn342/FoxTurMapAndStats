@@ -52,6 +52,21 @@ def fxPopulateWorkingData(fxWarConquest):
                     _fxWorkingData.fxTotalWardenMPFs += 1
                 if fxWarRegionMapItem.teamId == colonials:
                     _fxWorkingData.fxTotalColonialMPFs += 1
+            if fxWarRegionMapItem.iconType == 37:
+                if fxWarRegionMapItem.teamId == wardens:
+                    _fxWorkingData.fxTotalWardenRocketSilos += 1
+                if fxWarRegionMapItem.teamId == colonials:
+                    _fxWorkingData.fxTotalColonialRocketSilos += 1
+            if fxWarRegionMapItem.iconType == 72:
+                if fxWarRegionMapItem.teamId == wardens:
+                    _fxWorkingData.fxTotalWardenArmedRocketSilos += 1
+                if fxWarRegionMapItem.teamId == colonials:
+                    _fxWorkingData.fxTotalColonialArmedRocketSilos += 1
+            if fxWarRegionMapItem.iconType == 888:
+                if fxWarRegionMapItem.teamId == wardens:
+                    _fxWorkingData.fxTotalWardenWeatherStations += 1
+                if fxWarRegionMapItem.teamId == colonials:
+                    _fxWorkingData.fxTotalColonialWeatherStations += 1
 
     #Calculate Victory Points
     logging.debug("Calculating total victory points per faction.")

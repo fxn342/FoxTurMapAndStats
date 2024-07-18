@@ -17,6 +17,12 @@ class fxWorkingData:
         self.fxTotalColonialMPFs = 0
         self.fxTotalWardenRefineries = 0
         self.fxTotalColonialRefineries = 0
+        self.fxTotalColonialWeatherStations = 0
+        self.fxTotalWardenWeatherStations = 0
+        self.fxTotalColonialArmedRocketSilos = 0
+        self.fxTotalColonialRocketSilos = 0
+        self.fxTotalWardenArmedRocketSilos = 0
+        self.fxTotalWardenRocketSilos = 0
         self.fxWarLength = None
         self.fxResistanceLength = None
 
